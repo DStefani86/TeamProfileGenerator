@@ -1,0 +1,29 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DStefani86/TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DStefani86/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/DStefani86/TeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.0.2",
+    "jest": "^28.1.3"
+  }
+}
