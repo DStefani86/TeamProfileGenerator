@@ -1,0 +1,54 @@
+/* * {
+    border: solid red 2px;
+} */
+
+body {
+    display:flexbox;
+}
+
+.card-body {
+    background-color:rebeccapurple ;
+    color: whitesmoke;
+    
+
+}
+
+.row {
+    display: block;
+    width: 18rem;
+    padding: 40px;
+    margin-left: 40%;
+    
+}
+
+h1 {
+    padding-right: 10px;
+    border: solid black 2px;
+    border-radius: 35px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    text-align: center;
+
+
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 8px;
+    
+    margin-left: 40%;
+    
+
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.list-group-item {
+    border: solid black 1px;
+    background-color:whitesmoke;
+}
+/* .display-8 {
+   
+} */

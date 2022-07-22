@@ -13,7 +13,8 @@ const htmlGen = ({ Managers, Engineers, Interns }) => {
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
-    />
+    />node
+    <link rel="stylesheet" href="../assets/css/style.css"/>
     <title>Team Profile Generator</title>
   </head>
   <body>
@@ -26,7 +27,7 @@ const htmlGen = ({ Managers, Engineers, Interns }) => {
 
   if (Managers.length) {
     output += '<div class="row">';
-
+    output += "<h1>Managers</h1> <hr> </div>";
     Managers.forEach((mgr) => {
       output += ` <div class="card" style="width: 18rem">
         <div class="card-body">
@@ -44,12 +45,12 @@ const htmlGen = ({ Managers, Engineers, Interns }) => {
       </div>`;
     });
 
-    output += "<h1>Managers</h1> <hr> </div>";
+    ;
   }
-
+;
   if (Engineers.length) {
     output += '<div class="row">';
-
+output += "<h1>Engineers</h1> <hr></div>"
     Engineers.forEach((eng) => {
       output += ` <div class="card" style="width: 18rem">
         <div class="card-body">
@@ -66,13 +67,12 @@ const htmlGen = ({ Managers, Engineers, Interns }) => {
         <div class="card-body"></div>
       </div>`;
     });
-
-    output += "<h1>Engineers</h1> <hr></div>";
   }
 
+    
   if (Interns.length) {
     output += '<div class="row">';
-
+output += "<h1>Interns</h1> <hr> </div>"
     Interns.forEach((int) => {
       output += ` <div class="card" style="width: 18rem">
         <div class="card-body">
@@ -89,8 +89,7 @@ const htmlGen = ({ Managers, Engineers, Interns }) => {
         <div class="card-body"></div>
       </div>`;
     });
-
-    output += "<h1>Engineers</h1> <hr> </div>";
+;
   }
 
   output += `
