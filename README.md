@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 ## Description
-This is application to generate a list of profiles for a small work team. All the e-mail addresses and GitHub links are clickable. Each role for the company features different content for the employee profile card. You may view this at the [Deployed](https://)
+This is application to generate a list of profiles for a small work team. All the e-mail addresses and GitHub links are clickable. Each role for the company features different content for the employee profile card. You may view this at the [Deployed](https://github.com/DStefani86/TeamProfileGenerator).
 
 ## Table of Contents
 
@@ -51,6 +51,9 @@ Finally, it leaves us with a clean and easy to read list of employee broken down
 
 If you have any other curiosities about the functionality of this application please watch the tutorial video I have included
 
+[Video](./assets/images/videoexample.mp4)
+
+There is a [SAMPLE](SAMPLE.html) of the work generated in the repository
 
 ## License 
 This application is licensed by MIT
