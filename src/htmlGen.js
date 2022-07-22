@@ -1,4 +1,4 @@
-import { writeFile } from "fs";
+const { writeFile } = require("fs");
 
 const htmlGen = ({ Managers, Engineers, Interns }) => {
   let output = `
@@ -37,7 +37,7 @@ const htmlGen = ({ Managers, Engineers, Interns }) => {
         <ul class="list-group list-group-flush">
           <li class="list-group-item">ID#: ${mgr.getId()} </li>
           <li class="list-group-item">
-            <a href="mailto: ${mgr.getEmail()}" class="email-link">E-Mail: ${mgr.getEmail()} </a>
+           E-Mail:<a href="mailto: ${mgr.getEmail()}" class="email-link"> ${mgr.getEmail()} </a>
           </li>
           <li class="list-group-item">Office Numer: ${mgr.getOfficeNumber()} </li>
         </ul>
@@ -103,4 +103,4 @@ output += "<h1>Interns</h1> <hr> </div>"
   );
 };
 
-export default htmlGen;
+module.exports = htmlGen;

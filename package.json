@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/DStefani86/TeamProfileGenerator#readme",
   "dependencies": {
-    "inquirer": "^9.0.2"
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "jest": "^28.1.3"

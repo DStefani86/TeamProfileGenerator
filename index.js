@@ -1,9 +1,9 @@
-import questions from './src/questions.js';
-import inquirer from 'inquirer';
-import Manager from './lib/Manager.js'
-import Engineer from './lib/Engineer.js'
-import Intern from './lib/Intern.js'
-import htmlGen from './src/htmlGen.js'
+const questions = require('./src/questions.js');
+const inquirer = require('inquirer');
+const Manager = require('./lib/Manager.js')
+const Engineer = require('./lib/Engineer.js')
+const Intern = require('./lib/Intern.js')
+const htmlGen = require('./src/htmlGen.js')
 
 const positions = {Managers:[],Engineers:[],Interns:[]};
 

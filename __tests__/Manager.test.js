@@ -8,5 +8,4 @@ describe('empTest', () => {
     expect(Manager.getEmail()).toBe("rickybobby@gmail.com")
     expect(Manager.getOfficeNumber()).toBe(44)
   });
-
 });
